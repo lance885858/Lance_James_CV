@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Junior Web Developer</title>
+
+  <!--This extracts direct icons from w3schools .  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- This link allows jquery to function/activate on my browser -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- this link is used for google fonts for a different font style -->
+  <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer" rel="stylesheet">
+
+  <!-- connects the external stylesheet to the html page -->
+  <link rel="stylesheet" type="text/css" href="stylsheet.css">
+
+  <!-- connect to the phone responsiveness stylesheet -->
+  <link rel="stylesheet" type="text/css" href="phone_stylesheet.css">
+
+  <!-- connect to the tablet responsiveness stylesheet -->
+  <link rel="stylesheet" type="text/css" href="tablet_stylesheet.css">
+
+  <!-- connect to the laptop responsiveness stylesheet -->
+  <link rel="stylesheet" type="text/css" href="laptop_stylesheet.css">
+
+</head>
+<body>
+
+  <!--  aside tag is my sidebar holder-->
+  <aside id="content_aligned_left">
+
+    <!-- the navbar information is inserted within an unordered list, -->
+    <nav id="nav">
+      <!-- the information will be aligned vertically on the left as a fixed navbar -->
+      <ul id="sidebar_styling">
+        <li id="home_icon"><a href="#top"><i class="fa fa-home" style="font-size:48px;color:white"></i><br>Home</a></li>
+        <li class="sidebar_icons" id="about_scroll"><a href="#about"><i class="fa fa-user" style="font-size:48px;color:white"></i><br> About</a></li>
+        <li class="sidebar_icons" id="skills_scroll"><a href="#Skills"><i class="fa fa-user-plus" style="font-size:48px;color:white"></i><br> Skills</a></li>
+        <li class="sidebar_icons" id="contact_scroll"><a href="#contact"><i class="fa fa-envelope" style="font-size:48px;color:white"></i><br> Contact</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <!--end of laptop navbar  -->
+
+  <!--  navbar for phone only-->
+  <aside id="phone_navbar">
+
+    <!-- navbar button -->
+    <button type="button" name="button"><i class="fa fa-align-justify" style="font-size:48px;color:black"></i></button>
+  </aside>
+
+  <!-- hidden phone navbar content -->
+  <div id="hidden_navbar_content">
+
+    <p id="phone_home_icon"><a href="#top"><i class="fa fa-home" style="font-size:48px;color:white"></i><br>Home</a></p>
+    <p id="phone_about_scroller"><a href="#about"><i class="fa fa-user" style="font-size:48px;color:white"></i><br>About</a></p>
+    <p id="phone_skills_scroller"><a href="#Skills"><i class="fa fa-user-plus" style="font-size:48px;color:white"></i><br>Skills</a></p>
+
+    <!-- contact -->
+    <p id="contact_phone_scroller"><a href="#contact"><i class="fa fa-envelope" style="font-size:48px;color:white"></i><br>Contact</a></p>
+  </div>
+  <!-- end of phone navbar -->
+
+  <!-- Aligned main image to the right of the browser -->
+  <section id="image_aligned_right">
+    <!--  id top for the process of smooth scroller-->
+    <h3 id="top"><i> Lance James</i></h3>
+    <p>Junior Web Developer</p>
+  </section>
+
+  <!-- this will display on the right of the browser ,this section is the content holder -->
+  <section id="personal_statement_aligned_right">
+    <p>A flexible Junior Web Developer seeking to max his full potential in the coding world. A natural leader who is confident yet willing to learn. I thrive on new challenges and am a problem solver.</p>
+  </section>
+
+  <!-- work experiences will aligned on the right of the browser with a themed background color -->
+  <section id="skill_ability_aligned_right">
+    <h2>Work Experience</h2>
+    <h6> Outdoor furniture -Bellville (December 2016) — Carpentry </h6>
+    <p>Performed the following tasks: packing and sorting wood/bulk, glueing, sanding and packing. I also assisted in delivery of product.</p>
+  </section>
+
+  <!-- contains some skills i consumed regarding coding -->
+  <section id="coding_content_holder">
+    <h1 id="Skills">Skills</h1>
+
+    <div id="html_bar"><img src="images/html 5.png" alt="" width="250px" height="200px"></div>
+    <div id="css_bar"><img src="images/css.png" alt="" width="250px" height="200px"></div>
+    <div id="javascript_bar"><img src="images/javascript.png" alt="" width="250px" height="200px"></div>
+    <div id="jquery_bar"><img src="images/jquery.png" alt="" width="250px" height="200px"></div>
+  </section>
+
+  <!--  contains the courses completed -->
+  <section id="courses">
+    <h2>Leadership Roles</h2>
+    <p>I completed a variety of leadership courses throughout my high school career:</p>
+    <p>- 24 month program with NGO, Leaders Quest, covering the following modules: Self-awareness, Self-management, Social-awareness, Social management, Leadership, Innovation and Entrepreneurship.</p>
+    <p>- 12 month Mini Entreprise Program, offering both theory and experimental learning in the following areas: Business Management, Market and Product research, Financial Management and Control, Pricing and Costing , Sales and Marketing, Problem Solving and Decision Making.</p>
+    <p>- 12 month program, Dream to be peer education: focusing on well-being and how to deal with peer pressure, develop empathy and improve self-esteem.</p>
+    <p>- Participated in a YES enterprise program, which focuses on both the theory and practice of Entrepreneurship. I played the role of a Constitutional Advisor throughout the duration of the program.</p>
+  </section>
+
+  <!-- education content will display on the right of the browser-->
+  <section id="education_aligned_right">
+    <!-- centered main header -->
+    <h2>Education</h2>
+
+    <!--sub heading attached with paragraphs of education achievments  -->
+    <h5>Life Choices Academy — Web Development (6 months full-time course): 2017</h5>
+    <p>The Lifechoices Academy is a full-time program which empowers youth from the Cape Flats with life, practical and professional development skills.</p>
+    <p>We did intensive study of the following web development languages: HTML, CSS, jQuery, JavaScript and Sass.</p>
+    <p> As part of our professional development, we had the opportunity to use online resources such as MOOCs, were taught Design Thinking and made use of resources for personal reflection, such as DISC profiles and SMART goal setting. </p>
+    <p>Taking part in this program  has taught me  how to better manage my time, deal with conflict and work as part of a team. My self awareness and confidence have grown and I am more in tune to the ways I learn and deal with others.</p>
+
+    <!-- for laptop only -->
+    <div id="high_school">
+      <h3>High School: Bonteheuwel high <br>(Class of 2016)</h3>
+      <li>Prefect and on the Representative -Councillor</li>
+      <li>Top 10 from grade 9 to Matric</li>
+      <li>Soccer captain</li>
+    </div>
+
+    <!-- for phone only -->
+    <div id="high_school_phone">
+      <h3>High School: Bonteheuwel high <br>(Class of 2016)</h3>
+      <p>Prefect and on the Representative Councillor</p>
+      <p>Top 10 from grade 9 to Matric</p>
+      <p>Soccer captain</p>
+    </div>
+
+    <!-- for laptop only -->
+    <div id="laptop_subject_holder">
+      <!-- h3 header -->
+      <h3>Subjects Taken:</h3>
+
+      <!--  text will apear on left-->
+      <aside id="left_subjects_aligned">
+        <li>English (HL)</li>
+        <li>Afrikaans(FAL)</li>
+        <li>Mathematical Literacy</li>
+      </aside>
+
+      <!--  text will apear on right-->
+      <aside id="right_subjects_aligned">
+        <li>Geography</li>
+        <li>Life Science</li>
+        <li>Life Orientation</li>
+      </aside>
+
+      <!-- centered text -->
+      <span id="centered_subject">Computer Application Technology</span>
+    </div>
+
+    <!-- this will only display on the phone browser -->
+    <section id="phones_subjects_section">
+
+      <h1>Subjects taken:</h1>
+      <p>English (HL)</p>
+      <p>Geography</p>
+      <p>Afrikaans(FAL)</p>
+      <p>Life Science</p>
+      <p>Mathematical Literacy</p>
+      <p>Life Orientation</p>
+      <p>Computer Application Technology</p>
+    </section>
+
+  </section>
+
+
+  <!-- references -->
+  <section id="references">
+    <!-- sub header -->
+    <h2>References</h2>
+
+    <!--within a single div contains data of nate (reference)  -->
+    <div id="reference_nate">
+      <!--nate (image)  -->
+      <img src="images/nate.png" alt="Nate" width="200px" height="200px">
+
+      <!--content  -->
+      <p>Nathan Banda</p>
+      <p>Coding Facilitator</p>
+
+      <!--contact details  -->
+      <p>021 685 0991</p>
+      <p>nathan@codespace.co.za</p>
+    </div>
+
+    <!--within a single div contains data of candice (reference)  -->
+    <div id="reference_candice">
+      <!--candice(image)  -->
+      <img src="images/candice.jpg" alt="Candice" width="200px" height="200px">
+
+      <!--content  -->
+      <p>Candice Amon</p>
+      <p>Life Choices Academy Facilitator</p>
+      <!-- contact details -->
+      <p>021 696 4157</p>
+      <p>candice@lifechoices.co.za</p>
+    </div>
+
+    <!--within a single div contains data of stefan (reference)  -->
+    <div id="reference_stefan">
+      <!--candice(image)  -->
+      <img src="images/stefan.jpg" alt="stefan" width="200px" height="200px">
+
+      <!--contact details  -->
+      <p>Stefan Louw</p>
+      <p>Prof.Dev Facilitator</p>
+
+      <!--contact details  -->
+      <p>021 685 0991</p>
+      <p>stefan@codespace.co.za</p>
+    </div>
+  </section>
+
+  <!-- Contact holder within consist of a table as well as a
+  <!-div for the information to display in the contact section -->
+
+  <section id="contact_holder">
+    <h4>Contact Me</h4>
+
+    <aside id="left_contact_laptop">
+
+      <table>
+        <tr>
+          <td><i class="fa fa-map-marker" style="font-size:40px;color:black"></i></td>
+          <td>South Africa,Western Cape</td>
+        </tr>
+
+        <tr>
+          <td><i class="fa fa-phone-square" style="font-size:40px;color:black"></i></td>
+          <td> 061 765 0636</td>
+        </tr>
+      </table>
+    </aside>
+
+    <!-- Adding a github and a linkedin social media link the footer of my browser ,making use of w3schools font awesome images. also making use of a back to top scroll button-->
+    <aside id="right_contact_laptop">
+      <table>
+        <tr>
+          <td><a href="https://www.linkedin.com/in/lance-james-b07773150/"><i class="fa fa-linkedin-square" style="font-size:40px;color:black"></i></a></td>
+          <td>Linkedin</td>
+        </tr>
+
+        <tr>
+          <td><a href="https://github.com/lance885858"><i class="fa fa-git-square" style="font-size:40px;color:black"></i></a></td>
+          <td>github</td>
+        </tr>
+      </table>
+    </aside>
+
+    <span id="aligned_laptop_location">
+      <table>
+        <tr>
+          <td><i class="fa fa-envelope" style="font-size:40px;color:black"></i></td>
+          <td>lance.lifechoices@gmail.com</td>
+        </tr>
+      </table>
+    </span>
+  </section>
+  <!-- end of laptop contact holder -->
+
+  <!--This will  only display on the phone the above section will be displayed as none -->
+  <section id="contact_phone_holder">
+
+    <!-- h2 heading -->
+    <h2>Contact Me</h2>
+
+    <!--  this will display for the phone only-->
+    <table>
+      <tr>
+        <td><i class="fa fa-map-marker" style="font-size:75px;color:black"></i></td>
+        <td><p id="aligned_phone_location">South Africa,Western Cape</p></td>
+      </tr>
+    </table>
+
+    <!-- Adding a github and a linkedin social media link the footer of my browser ,making use of w3schools font awesome images. also making use of a back to top scroll button-->
+
+    <table id="phone_footer_icons">
+      <tr>
+        <td><a href="https://www.linkedin.com/in/lance-james-b07773150/"><i class="fa fa-linkedin-square" style="font-size:75px;color:black"></i></a></td>
+        <td><p>Linkedin</p></td>
+      </tr>
+
+      <tr>
+        <td><a href="https://github.com/lance885858"><i class="fa fa-git-square" style="font-size:70px;color:black"></i></a></td>
+        <td><p>github</p></td>
+      </tr>
+
+      <tr>
+        <td><i class="fa fa-phone-square" style="font-size:70px;color:black"></a></td>
+          <td><p>061 765 0636</p></td>
+        </tr>
+
+        <tr>
+          <td><i class="fa fa-envelope" style="font-size:70px;color:black"></i></td>
+          <td><p>lance.lifechoices@gmail.com</p></td>
+        </tr>
+      </table>
+    </section>
+
+    <script>
+    // this is used for the smooth scroller
+    if ($('.scrollToTop')[0]){
+      $('.scrollToTop').click(function(){
+        $('html,body').animate({ scrollTop: 0 }, 4000);
+      });
+    }
+
+    // smooth scroller for the contact section
+    $("#contact_scroll").on("click",function(){
+      $("html,body").animate({scrollTop:$("#contact_holder").offset().top},4000);
+    });
+
+    // smooth scroller for the about section
+    $("#about_scroll").on("click",function(){
+      $("html,body").animate({scrollTop:$("#personal_statement_aligned_right").offset().top},3000);
+    });
+
+    // smooth scroller for the skill section
+    $("#skills_scroll").on("click",function(){
+      $("html,body").animate({scrollTop:$("#coding_content_holder").offset().top},4000);
+    });
+
+    // smooth scroller for the home section
+    $("#home_icon").on("click",function(){
+      $("html,body").animate({scrollTop:$("#image_aligned_right").offset().top},4000);
+    });
+
+
+
+
+    // this apply to the phone only button
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("#hidden_navbar_content").slideToggle("slow");
+      });
+    });
+
+
+    // smooth scroller for the home section of the phone
+    $("#phone_home_icon").on("click",function(){
+      $("html,body").animate({scrollTop:$("#image_aligned_right").offset().top},4000);
+    });
+
+    // smooth scroller for the about section of the phone
+    $("#phone_about_scroller").on("click",function(){
+      $("html,body").animate({scrollTop:$("#personal_statement_aligned_right").offset().top},4000);
+    });
+
+    // smooth scroller for the skilla section of the phone
+    $("#phone_skills_scroller").on("click",function(){
+      $("html,body").animate({scrollTop:$("#coding_content_holder").offset().top},4000);
+    });
+
+    // smooth scroller for the scontact section of the phone
+    $("#contact_phone_scroller").on("click",function(){
+      $("html,body").animate({scrollTop:$("#phone_footer_icons").offset().top},8000);
+    });
+  </script>
+ </body>
+</html>
